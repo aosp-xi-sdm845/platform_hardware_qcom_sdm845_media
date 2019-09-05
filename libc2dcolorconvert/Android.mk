@@ -9,6 +9,8 @@ LOCAL_C_INCLUDES := \
     $(TARGET_OUT_HEADERS)/adreno
 LOCAL_C_INCLUDES += $(TARGET_OUT_HEADERS)/qcom/display
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
+LOCAL_C_INCLUDES += hardware/qcom/sdm845/display/gralloc
+LOCAL_C_INCLUDES += hardware/qcom/sdm845/display/commonsys-intf/gralloc
 
 LOCAL_HEADER_LIBRARIES := \
         libutils_headers \
